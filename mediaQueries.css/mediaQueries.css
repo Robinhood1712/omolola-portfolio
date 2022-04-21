@@ -116,8 +116,16 @@
         /* margin-bottom: 30px; */
     }
 
+    span {
+        color: var(--main-color);
+        font-family:cursive;
+        font-size: 1.7rem;
+        font-weight: 800;
+    }
+
     .about {
         grid-template-columns: 1fr;
+        grid-gap: 2rem;
         text-align: center;
         display: flex;
         flex-direction: column-reverse;
@@ -152,6 +160,10 @@
         font-weight: 200;
         letter-spacing: 4px;
 
+    }
+
+    .about img {
+        margin-top: 10px;
     }
     
 }
