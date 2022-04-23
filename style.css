@@ -117,24 +117,24 @@ section {
 
 .home-text h5 {
     color: var(--text-color);
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
-    margin: 0 0 20px;
+    margin: 0 0 15px;
 }
 
 .home-text h1 {
-    font-size: var(--big-font);
+    font-size: 2.9rem;
     color: var(--text-color);
     font-weight: 800;
     line-height: 1;
-    margin: 0 0 20px;
+    margin: 0 0 15px;
 }
 
 .home-text h6 {
     color: var(--text-color);
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .home-text p {
@@ -175,6 +175,7 @@ section {
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 5rem;
     align-items: center;
+    padding: 60px 15px;
 }
 
 .about-img img {
@@ -208,6 +209,10 @@ section {
     margin-bottom: 1rem;
     line-height: 1.5rem;
     color: var(--2nd-main-color);
+}
+
+.about-text {
+    padding: 10px 2px;
 }
 
 .count {
