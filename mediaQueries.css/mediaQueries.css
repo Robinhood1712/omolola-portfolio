@@ -201,6 +201,23 @@
     .home-text h1 {
         font-size: 45px;
     }
+
+    form .send-btn {
+        background: var(--main-color);
+        text-decoration: none;
+        color: var(--text-color);
+        box-shadow: 4px 4px var(--text-color);
+        padding: 0 25px;
+        line-height: 42px;
+        display: inline-block;
+        border: 1px solid transparent;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        transition: ease all 0.35s;
+        cursor: pointer;
+    }
+    
     
 }
 
