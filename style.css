@@ -439,6 +439,12 @@ form .send-btn:hover {
     box-shadow: 4px 4px var(--main-color);
 }
 
+.contact-form a {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
 
 /* copyright */
 
